@@ -112,6 +112,7 @@ do
     esac
     shift
 done
+
 # Assuming that whatever left is list of files for 'glue'
 # shellcheck disable=2124
 GLUE_INPUT_FILES="$@"
