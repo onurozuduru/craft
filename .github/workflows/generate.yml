@@ -25,5 +25,5 @@ jobs:
         with:
           default_author: github_actions
           message: 'Auto update craft.sh'
-          add: 'craft.sh'
+          add: '--force craft.sh'
           pathspec_error_handling: exitImmediately
